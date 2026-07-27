@@ -35,8 +35,6 @@ Press **Ctrl+C** to stop.
 
 ```text
 ====================================
- Transcript Merger
-====================================
 
 [INFO] Starting mic-transcription.exe
 [INFO] Starting speaker-transcription.exe
@@ -45,6 +43,9 @@ Press **Ctrl+C** to stop.
 [INFO] Speaker stream connected
 
 ------------------------------------
+
+[INFO] REST  GET http://0.0.0.0:3000/transcript
+[INFO] WS    ws://0.0.0.0:3000/transcript/ws
 
 [12:01:03.421] 🎤 MIC
 Hello everyone, let's start the meeting.

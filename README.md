@@ -52,31 +52,3 @@ cargo run -p mic-transcription
 # Speaker (system audio) transcription only
 cargo run -p speaker-transcription
 ```
-
-## Console Output for transcript-merger
-
-```text
-====================================
-
-[INFO] Starting mic-transcription.exe
-[INFO] Starting speaker-transcription.exe
-
-[INFO] Mic stream connected
-[INFO] Speaker stream connected
-
-------------------------------------
-
-[INFO] REST  GET http://0.0.0.0:3000/transcript
-[INFO] WS    ws://0.0.0.0:3000/transcript/ws
-
-[12:01:03.421] 🎤 MIC
-Hello everyone, let's start the meeting.
-
-[12:01:05.102] 🔊 SPEAKER
-Good morning. Can you hear me?
-
-[12:01:06.887] 🎤 MIC
-Yes, your audio is clear.
-
-------------------------------------
-```
