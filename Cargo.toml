@@ -3,8 +3,5 @@ members = [
     "transcript-merger",
     "mic-transcription",
     "speaker-transcription",
-    "sb-mcp-local-webserver",
-    "meeting-client",
-    "sb"
 ]
 resolver = "2"
